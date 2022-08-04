@@ -1,0 +1,298 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"plum"
+			],
+			[
+				"gree",
+				"greenyellow"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"gr",
+				"grey"
+			],
+			[
+				"te",
+				"teal"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"decr",
+				"decrypt"
+			],
+			[
+				"g",
+				"generateRandom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/chiro/Documents/flask/page1/allpy/routes.py",
+		"/home/chiro/Documents/flask/page1/templates/home.html",
+		"/home/chiro/Documents/flask/page1/templates/base.html",
+		"/home/chiro/Documents/flask/page1/basics.py",
+		"/home/chiro/Desktop/OSlab/C programs/first.c",
+		"/home/chiro/Desktop/OSlab/C programs/fileSystemDev.c",
+		"/home/chiro/Desktop/PERL/page45.py",
+		"/home/chiro/Desktop/PERL/pg45.pl",
+		"/home/chiro/Desktop/PERL/prog1.pl",
+		"/home/chiro/Desktop/PERL/prog2.pl",
+		"/home/chiro/Desktop/PERL/m.pl",
+		"/home/chiro/Desktop/PERL/prog3.pl",
+		"/home/chiro/Desktop/PERL/loops.pl",
+		"/home/chiro/Desktop/PERL/dearrc.cpp",
+		"/home/chiro/Desktop/PERL/dearr.py",
+		"/home/chiro/Desktop/PERL/target.py",
+		"/home/chiro/Desktop/PERL/tasks.py",
+		"/home/chiro/Desktop/PERL/dearrc.c",
+		"/home/chiro/Desktop/OSlab/C programs/myshell.c",
+		"/home/chiro/Desktop/OSlab/C programs/pipe1.c",
+		"/home/chiro/Desktop/OSlab/C programs/studentrace.c",
+		"/home/chiro/Desktop/OSlab/C programs/teacgerrace.c",
+		"/home/chiro/Desktop/CNlab/untitled.py",
+		"/home/chiro/Desktop/CNlab/powtest.py",
+		"/home/chiro/Desktop/CNlab/tcpcon.c",
+		"/home/chiro/Desktop/CNlab/vocabBinary.c",
+		"/home/chiro/Desktop/CNlab/vocabclient.c",
+		"/home/chiro/Desktop/CNlab/vocabL.c",
+		"/home/chiro/Desktop/CNlab/vocabclient",
+		"/home/chiro/Desktop/CNlab/tcpclient.c",
+		"/home/chiro/Desktop/CNlab/tcpiter.c",
+		"/home/chiro/Desktop/OSlab/C programs/exefork.c",
+		"/home/chiro/Desktop/CNlab/CN ass-4 outputs.pdf",
+		"/home/chiro/Desktop/OSlab/C programs/students.c",
+		"/home/chiro/Desktop/OSlab/C programs/consumer.c",
+		"/home/chiro/Desktop/OSlab/C programs/producer.c",
+		"/home/chiro/Downloads/hashcode.py",
+		"/home/chiro/Desktop/OSlab/C programs/semaphore.c",
+		"/home/chiro/Desktop/OSlab/C programs/shm.c",
+		"/home/chiro/Desktop/OSlab/C programs/pong.c",
+		"/home/chiro/Desktop/OSlab/C programs/ping.c",
+		"/home/chiro/Desktop/OSlab/C programs/mathclient.c",
+		"/home/chiro/Desktop/OSlab/C programs/mathserver.c"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=>",
+			"findLongestPath",
+			"vis",
+			"numberOfRabinTrials",
+			"evenComponent",
+			"maxDivisionsByTwo",
+			"miller_rabin_candidate",
+			"element",
+			"end_index",
+			"start_index",
+			"prime_candidate",
+			"LIM",
+			"LIM\n",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":",
+			"longest",
+			"dis",
+			"trials",
+			"q",
+			"k",
+			"suspect",
+			"w",
+			"en",
+			"st",
+			"suspect"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "styles.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

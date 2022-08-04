@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% block title %}
+solved
+{% endblock %}
+{% block content %}
+<div class = "container">
+	<form method='POST'>
+	<div class = "grid">
+		{% for i in range (9) %}
+		<div class = "grid-row">
+			{% for j in range (9) %}
+				<div class= "grid-cell" style="color: black;">
+					{{data[sol_no][i][j]}}
+				</div>
+			{% endfor %}
+		</div>
+		{% endfor %}
+		<div class= "button-container fadein-container">
+			<a class= "btn btn-primary " href="{{ url_for('home_page')}}">Home</a>
+			{{form.submit(class="btn btn-primary")}}
+			{{sol_no}}
+		</div>
+	</div>
+	</form>
+</div>
+{% endblock %}

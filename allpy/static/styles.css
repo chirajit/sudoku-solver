@@ -1,0 +1,49 @@
+body{
+	height: 100%;
+	background-color: #212121;
+    color: white
+}
+.container{
+	box-sizing: border-box;
+	cursor: default;
+	border-radius: 6px;
+	margin: auto;
+}
+.grid{
+	position: absolute;
+	z-index: 1;
+	box-sizing: border-box;
+	background-color: black;
+	margin: auto;
+}
+.grid-row{
+	height: 80px;
+	margin-bottom: 4px;
+	width: inherit;
+}
+.grid-row:nth-child(3n){
+	height: 80px;
+	margin-bottom: 10px;
+}
+.grid-cell{
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 50px;
+	background-color: plum;
+}
+.grid-cell:nth-child(3n+3){
+	margin-right: 10px;
+}
+.button-container > * {
+	margine-bottom : 20px
+}
+
+.def-text-input {
+	width: inherit;
+	background-color: transparent;
+	text-align: center;
+}
