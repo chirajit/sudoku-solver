@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+
+{% block title %}
+sudoku play
+{% endblock %}
+
+{% block onload %}
+<script>
+window.onload = startTimer;
+</script>
+{% endblock %}
+
+{% block content %}
+<div class = "container">
+	<div class = "grid">
+		{% for i in range (9) %}
+		<div class = "grid-row">
+			{% for j in range (9) %}
+				<div class= "grid-cell" style="color: black;">
+					{% if question[i][j] > 0 %}
+						{{question[i][j]}}
+					{% else %}
+						<input type="text" maxlength="1" class="def-text-input" name={{i*9+j}} oninput="check_color({{i*9+j}},{{answer[i][j]}})" >
+					{% endif %}
+				</div>
+
+			{% endfor %}
+		</div>
+		{% endfor %}
+		<div class= "button-container fadein-container">
+			<button class = "btn btn-success btn-block" style="margin-bottom:10px;" onclick="stopTimer({{zeros}})"> Finish </button>
+			<form method="POST">
+				<input type="submit" name="valu" class = "btn btn-warning" value='Play again' style="width: 50%;">
+			<a class= "btn btn-primary" style="width: 50%; float: right" href="{{ url_for('home_page')}}">Home</a>
+			</form>
+		</div>
+	</div>
+	<div class = "sides">
+		<div style = "color: blue;">
+			<p id= "showtime" class = "shows"> Timer : 00:00:00 </p>
+		</div>
+		<div style = "color: lawngreen;">
+			<p id= "showcorrect" class = "shows"> Correct : 0 </p>
+		</div>
+		<div style = "color: indianred;">
+			<p id= "showwrong" class = "shows"> Wrong : 0 </p>
+		</div>
+		<div class = "warningbox">
+			<p id = "message"> ! WARNING !<br> Dekho baba, FINISH na kore to jete parba na , finish korle taholei baki buttons enable hobe.</p>
+		</div>
+	</div>
+</div>
+{% endblock %}

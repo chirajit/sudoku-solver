@@ -7,7 +7,6 @@ body{
 	box-sizing: border-box;
 	cursor: default;
 	border-radius: 6px;
-	margin: auto;
 }
 .grid{
 	position: absolute;
@@ -46,4 +45,30 @@ body{
 	width: inherit;
 	background-color: transparent;
 	text-align: center;
+}
+
+.def-text-input.red{
+	color : red;
+}
+
+.def-text-input.green{
+	color : green;
+}
+
+.sides {
+	float: right;
+	font-size: 2em;
+	font: bolder;
+	width: 30%;
+}
+.shows {
+	text-align: right;
+}
+.warningbox {
+	color: red; 
+	font-size: medium; 
+	border: 2px solid white; 
+	border-color: white;"
+	margin: 10px;
+	padding: 10px;
 }
