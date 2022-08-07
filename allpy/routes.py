@@ -92,5 +92,6 @@ def sudoku_play():
 	answer = ans[r]
 	jiros = 0
 	for i in question :
-		jiros += i.count(0)
+		listed = list(i)
+		jiros += listed.count(0)
 	return render_template('sudokuplay.html', question=question, answer=answer, zeros = jiros)
